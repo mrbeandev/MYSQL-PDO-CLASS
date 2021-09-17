@@ -19,7 +19,7 @@ Firstly, define four constants for the host, database name, username and passwor
 
 Then, simply include this class into your project like so:
 
-`include_once('/path/to/class.DBPDO.php');`
+`include_once('/path/to/DBPDO.php');`
 
 Then invoke the class:
 
