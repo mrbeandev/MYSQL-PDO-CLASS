@@ -1,12 +1,3 @@
-Important Notice
-===============
-
-As of December 2014 I decided to upload the PHP MySQL Class I wrote a while back, and now use on a daily basis. It's PDO based (the `mysql_*` functions were due to be deprecated quite a while back now!).
-
-The old version is still a part of this repo for now, and the readme is still available [here](class.MySQL.README.md).
-
-
-
 PHP MySQL Class
 ===============
 
@@ -117,18 +108,3 @@ This will now return an array like the following:
 So of course we could now do something like:
 
 `if(isset($counties[$raw_data['county_name']])){ //Do something }`
-
-### License
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
