@@ -79,6 +79,7 @@ class DBPDO {
 		}
 	}
 
+	// this returns a php object
 	function fetch($query, $values = null){
 		try{
 			if($values == null){
@@ -87,7 +88,7 @@ class DBPDO {
 				$values = array($values);
 			}
 			$stmt = $this->execute($query, $values);
-			return $stmt->fetch(PDO::FETCH_ASSOC);
+			return $stmt->fetchObject(PDO::FETCH_ASSOC);
 		} catch(PDOException $e){
 			return $e->getMessage();
 		}
