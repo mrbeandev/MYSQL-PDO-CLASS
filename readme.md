@@ -9,13 +9,12 @@ Setup
 
 Firstly, define four constants for the host, database name, username and password:
 
-`define('DATABASE_NAME', 'my_database');`
-
-`define('DATABASE_USER', 'username');`
-
-`define('DATABASE_PASS', 'password');`
-
-`define('DATABASE_HOST', 'localhost');`
+```
+define('DATABASE_NAME', 'my_database');
+define('DATABASE_USER', 'username');
+define('DATABASE_PASS', 'password');
+define('DATABASE_HOST', 'localhost');
+```
 
 Then, simply include this class into your project like so:
 
